@@ -21,17 +21,35 @@
 <input type="tel" name="tel">
 <br>
 <label for="date" name="date"> Date of Birth</label>
-<input type="date">
+<input type="date" name="b-day">
 Gender:
-<select name="gender" id="">
-<option value="gender" name="male">Male</option>
-<option value="gender" name="female">Female</option>
+<select name="gender">
+<option value="male">Male</option>
+<option  value="female">Female</option>
 </select>
 <br>
 
 <label for="About">About</label>
 <textarea name="message">write something....</textarea>
 <br>
+<h3>Your filed</h3>
+<label for="developer">Developer</label>
+<input type="checkbox" name="field" value="developer">
+<br>
+<label for="fullstack">Fullstack</label>
+<input type="checkbox" name="field" value="fullstack">
+<br>
+<label for="freelancer">Freelancer</label>
+<input type="checkbox" name="field" value="freelancer">
+<br>
+<label for="color"> your favorite color</label>
+<input type="color" name="color">
+<br>
+<h3>upload your cv</h3>
+<input type="file" name="file" accept="doc,pdf">
+<br>
+<label for="url"> your account</label>
+<input type="url" name="url">
 <br>
 <input class="btn btn-danger" type="reset">
 <button class="btn btn-primary">Login</button>
