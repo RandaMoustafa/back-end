@@ -1,9 +1,9 @@
 CREATE DATABASE classe;
 CREATE TABLE classes(
-     id INT AUTO_INCREMENT PRIMARY KEY ,
-        Teacher_Id INT (255) UNIQUE,
+     id INT  ,
+        Teacher_Id INT (255) ,
         Subjects VARCHAR (255),
-        Grade VARCHAR (255),
+        Grade VARCHAR (255)
 );
 ALTER TABLE `classes` ADD `Start_Date` DATE NOT NULL AFTER `Grade`;
 ALTER TABLE `classes` ADD `Paasing_Grade` VARCHAR(255) NOT NULL AFTER `Start_Date`;
