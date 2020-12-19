@@ -9,31 +9,31 @@
 <body>
     <div class="data">
         <div class="container">
-            <form action="" method="POST">
-                <label for="name"> Employee Name <input type="text" name="employee"> </label>
-                <label for="id"> ID <input type="text" name="id"> </label>
+            <form action="sorting.php" method="POST">
+            
+                <label for="name"> Employee Name <input type="text" name="employee-a"> </label>
+                <label for="id"> ID <input type="text" name="employee"> </label>
+               <br>
+               <label for="name"> Employee Name <input type="text" name="employee"> </label>
+                <label for="id"> ID <input type="text" name="employee"> </label>
                 <br>
                 <label for="name"> Employee Name <input type="text" name="employee"> </label>
-                <label for="id"> ID <input type="text" name="id"> </label>
-                <br>
-                <label for="name"> Employee Name <input type="text" name="employee"> </label>
-                <label for="id"> ID <input type="text" name="id"> </label>
-                <br>
-                <label for="name"> Employee Name <input type="text" name="employee"> </label>
-                <label for="id"> ID <input type="text" name="id"> </label>
+                <label for="id"> ID <input type="text" name="employee"> </label>
                 <br>
                 sort by
                 <select name="sort">
-                    <option value="id">
+                    <option value="Id" selected>
                         Id
                     </option>
                     <option value="name">
                         employee name
                     </option>
                 </select>
+                <button type="submit" class="btn btn-success" name='submit'> submit</button>
             </form>
         </div>
     </div>
+    
     
 </body>
 </html>
